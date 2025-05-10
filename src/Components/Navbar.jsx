@@ -62,9 +62,17 @@ class Navbar extends Component {
                 >
                   Props
                 </Link>
-                <Link to= '/contact' className="bg-white text-indigo-600 px-4 py-2 rounded-full font-medium hover:bg-gray-100 transition duration-300 transform hover:scale-105">
-                  Contact
-                </Link>
+                <Link to='/toggle'
+                className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-black hover:bg-opacity-20 transition duration-300"
+              >
+                ToggleBtn
+              </Link>
+              <Link to='/todolistfunctioncom'
+                className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blak hover:bg-opacity-20 transition duration-300"
+              >
+                TodoList FunctionalComp
+              </Link>
+    
               </div>
 
               {/* Mobile menu button */}
@@ -120,31 +128,41 @@ class Navbar extends Component {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white bg-opacity-10 backdrop-filter backdrop-blur-sm">
               <Link to='/'
                 //href="#"
-                className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-white hover:bg-opacity-20 transition duration-300"
+                className="text-black block px-3 py-2 rounded-md text-base font-medium hover:bg-white hover:bg-opacity-20 transition duration-300"
               >
                 Form
               </Link>
               <Link to='/todolist'
                 //href="#"
-                className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-white hover:bg-opacity-20 transition duration-300"
+                className="text-black block px-3 py-2 rounded-md text-base font-medium hover:bg-white hover:bg-opacity-20 transition duration-300"
               >
                 Todolist
               </Link>
               <Link to='/buttons'
                 //href="#"
-                className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-white hover:bg-opacity-20 transition duration-300"
+                className="text-black block px-3 py-2 rounded-md text-base font-medium hover:bg-white hover:bg-opacity-20 transition duration-300"
               >
                 Buttons
               </Link>
               <Link to='/props'
                 //href="#"
-                className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-white hover:bg-opacity-20 transition duration-300"
+                className="text-black block px-3 py-2 rounded-md text-base font-medium hover:bg-white hover:bg-opacity-20 transition duration-300"
               >
                 Props
               </Link>
-              <Link to='/contact' className="w-full bg-white text-indigo-600 px-4 py-2 rounded-full font-medium hover:bg-gray-100 transition duration-300 mt-2">
-                Contact
+
+              <Link to='/toggle'
+                className="text-black block px-3 py-2 rounded-md text-base font-medium hover:bg-white hover:bg-opacity-20 transition duration-300"
+              >
+                ToggleBtn
               </Link>
+              <Link to='/todolistfunctioncom'
+                className="text-black block px-3 py-2 rounded-md text-base font-medium hover:bg-white hover:bg-opacity-20 transition duration-300"
+              >
+                TodoList FunctionalComp
+              </Link>
+
+             
             </div>
           </div>
         </nav>
